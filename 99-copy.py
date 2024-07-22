@@ -38,3 +38,12 @@ print(a)
 print(b)
 
 # 깊은 복사
+import copy
+
+a = [1, 2, [3, 4, 5]]
+b = copy.deepcopy(a)
+
+b[0]= 999
+b[2][1] = 100
+print(a)
+print(b)
