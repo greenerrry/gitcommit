@@ -31,20 +31,39 @@ print(new_text)
 text = '  Hello, world!  '
 new_text = text.strip()
 print(new_text)
+
 # split
 text = 'Hello, world!'
+words = text.split(',')
+words2 = text.split()
+print(words)
+print(words2)
 
 # join
 words = ['Hello', 'world!']
+new_text = '-'.join(words)
+print(new_text)
 
 # capitalize
 text = 'heLLo, woRld!'
+new_text1 = text.capitalize()
+print(new_text1)
 
 # title
-# upper
-# lower
-# swapcase
+new_text2 = text.title()
+print(new_text2)
 
+# upper
+new_text3 = text.upper()
+print(new_text3)
+
+# lower
+new_text4 = text.lower()
+print(new_text4)
+
+# swapcase
+new_text5 = text.swapcase()
+print(new_text5)
 
 # # 참고
 # # isdecimal() : 가장 엄격한 기준을 적용, 오직 일반적인 십진수 숫자(0-9)만 True로 인식
