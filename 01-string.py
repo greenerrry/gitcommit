@@ -1,9 +1,10 @@
+text = 'Hello, world!'
 # find
 
 # index
 
 # isupper
-
+text.isupper('Hello, world!')
 # islower
 
 # isalpha
