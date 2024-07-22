@@ -23,11 +23,14 @@ print(string1.isalpha())
 print(string2.isalpha())
 
 # replace
-text = 'Hello, world!'
+text = 'Hello, Hello, Hello, world!'
+new_text = text.replace('Hello','Hi', 1)
+print(new_text)
 
 # strip
 text = '  Hello, world!  '
-
+new_text = text.strip()
+print(new_text)
 # split
 text = 'Hello, world!'
 
